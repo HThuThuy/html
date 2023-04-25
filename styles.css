@@ -1,0 +1,87 @@
+/* Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+#hearder {
+    height: 70px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px 10px 4px 10px;
+}
+
+#content {
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4px 10px 4px 10px;
+
+}
+
+#nabbar {
+    order: 1;
+    width: 35%;
+    height: 220px;
+    margin-right: 4px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+#container {
+    order: 2;
+    width: 65%;
+    height: 220px;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container__header {
+    height: 110px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 4px;
+}
+
+#container_content {
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    margin-top: 4px;
+}
+
+#content1 {
+    width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 4px;
+}
+
+#content2 {
+    width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 4px;
+}
+
+#footer {
+    height: 45px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 4px 10px 10px 10px;
+}
